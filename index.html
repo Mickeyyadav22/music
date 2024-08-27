@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My music</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: black;
+        }
+
+        .nav {
+            display: flex;
+            padding: 1%;
+            gap: 40px;
+            background-color: skyblue;
+            position: sticky;
+        }
+
+        .nav h2 {
+            border-radius: 40px;
+            border: solid;
+            padding: 5px;
+            background-color: pink;
+        }
+
+        .nav h3 {
+            padding-top: 10px;
+            color: black;
+            background-color: skyblue;
+
+        }
+
+        .nav h3:hover {
+            color: brown;
+            transform: scale(-0.9);
+            transition: all .2s ease-in-out;
+            
+        }
+
+        #artist p:hover {
+            color: brown;
+            transform: scale(0.9);
+            transition: all .2s ease-in-out;
+        }
+
+        #artist img:hover {
+            color: brown;
+            transform: scale(0.9);
+            transition: all .2s ease-in-out;
+        }
+
+        button {
+            text-align: center;
+            width: 8%;
+            margin-left: 40%;
+            border: none;
+            text-decoration: none;
+            outline: none;
+            text-decoration: none;
+            background-color: skyblue;
+        }
+
+        .songs1 {
+            text-align: center;
+
+        }
+
+        #artist {
+            display: flex;
+            padding-left: 30px;
+            color: aquamarine;
+        }
+
+        #artist img {
+            margin: 20px;
+            border-radius: 50%;
+
+        }
+
+        .artists h3 {
+            padding-top: 10px;
+            border-radius: 40px;
+            border: solid;
+            padding: 5px;
+            background-color: pink;
+            text-align: center;
+
+        }
+
+        .songs1 h3 {
+            padding-top: 10px;
+            border-radius: 40px;
+            border: solid;
+            padding: 5px;
+            background-color: pink;
+
+        }
+
+        #fav1 {
+            margin: 20px;
+            display: flex;
+            /* padding-left:10px; */
+
+        }
+
+        #fav1 img {
+            padding-left: 20px;
+        }
+
+        #fav1 audio {
+            padding-left: 18px;
+            width: 220px;
+            height: 22px;
+
+        }
+
+        img:hover {
+            color: brown;
+            transform: scale(0.9);
+            transition: all .2s ease-in-out;
+            box-shadow: 0px 0px 20px 0px aqua;
+        }
+        #footer{
+            color: rgb(13, 232, 199);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <h3>MY MUSIC</h3>
+        <h3>HOME</h3>
+        <h3>About</h3>
+        <h3>Premium</h3>
+        <button>
+            <h3>Login</h3>
+        </button>
+    </div>
+    <br>
+    <marquee style=" color: chartreuse;">
+        <b>Music is a love in search of a world</b>
+    </marquee>
+
+
+    <br>
+    <div class="artists">
+        <h3>Artists</h3>
+    </div>
+    <br>
+
+
+    <div id="artist">
+        <div class="artist1">
+            <p>HIPPOP THAMIZA</p>
+            <img src="./my music_files/thamizza.jpg" width="160px">
+        </div>
+        <div class="artist2">
+            <p>GV Prakash</p>
+            <img src="./my music_files/gvprakash.jpg" width="160px">
+        </div>
+        <div class="artist3">
+            <p>Arjith singh</p>
+            <img src="./my music_files/arjith singh.jpg" width="200px" style="border-radius: 80%;" height="190px">
+        </div>
+        <div class="artist4">
+            <p>AR Rahaman</p>
+            <img src="./my music_files/ar rehman.jpg" width="160px">
+        </div>
+        <div class="artist5">
+            <p>Tylore Swift</p>
+            <img src="./my music_files/tylore.jpg" width="160px" height="160px">
+        </div>
+        <div class="artist5">
+            <p>Shreyagoshyal</p>
+            <img src="./my music_files/shreya-ghoshal.jpg" width="160px">
+        </div>
+    </div>
+    <br>
+
+    <div class="songs1">
+        <marquee style=" color: chartreuse;">
+            <b>HOT HITS</b>
+        </marquee>
+        <br>
+        <h3>International hit songs</h3>
+
+    </div>
+    <br>
+    <div id="fav1">
+        <div class="play1">
+            <img src="./my music_files/travis scott.jpg" width="220px" height="180px">
+            <br>
+            <audio src="FEiN---Travis-Scott(trendymusic.in).mp3" controls=""></audio>
+        </div>
+        <div class="play2">
+            <img src="./my music_files/annie marrie.jpeg" width="220px" height="180px">
+            <br>
+            <audio src="Anne-Marie-2002.mp3" controls=""></audio>
+        </div>
+        <div class="play3">
+            <img src="./my music_files/halsey-benny-blanco-khalid-bb4-2019-u-billboard-1548.webp" width="220px"
+                height="180px">
+            <br>
+            <audio src="Halsey_Khalid_-_Eastside.mp3" controls=""></audio>
+        </div>
+        <div class="play4">
+            <img src="./my music_files/closer.jpg" width="220px" height="180px">
+            <br>
+            <audio src="closer chainsmokers.mp3" controls=""></audio>
+        </div>
+        <div class="play5">
+            <img src="./my music_files/zyan.jpg" width="220px" height="180px">
+            <br>
+            <audio src="Zayn_-_Dusk_Till_Dawn_Ft_Sia_CeeNaija.com_.mp3" controls=""></audio>
+        </div>
+    </div>
+    <br>
+    <div class="songs1">
+        <h3>INDIAN MELODIES</h3>
+    </div>
+    <br>
+    <div id="fav1">
+        <div class="play1">
+            <img src="./my music_files/sajini re.webp" width="220px" height="180px">
+            <br>
+            <audio src="O-Sajni-Re-Arijit-Singh_320(PagalWorld).mp3" controls=""></audio>
+        </div>
+        <div class="play2">
+            <img src="./my music_files/Sakhiyaan-1.jpg" width="220px" height="180px">
+            <br>
+            <audio src="Sakhiyaan.mp3" controls=""></audio>
+        </div>
+        <div class="play3">
+            <img src="./my music_files/kunfaya kun.jpg" width="220px" height="180px">
+            <br>
+            <audio src="Kun Faaya Kun Rockstar 320 Kbps.mp3" controls=""></audio>
+        </div>
+        <div class="play4">
+            <img src="./my music_files/o mahi.webp" width="220px" height="180px">
+            <br>
+            <audio src="O Maahi Dunki 320 Kbps.mp3" controls=""></audio>
+        </div>
+        <div class="play5">
+            <img src="./my music_files/Dil-Bechara-A.R.-Rahman-500-500.jpg" width="220px" height="180px">
+            <br>
+            <audio src="Zayn_-_Dusk_Till_Dawn_Ft_Sia_CeeNaija.com_.mp3" controls=""></audio>
+        </div>
+    </div>
+<br>
+<br>
+<hr>
+<div id=footer>
+<center>@ Music World</center>
+<br>
+<p>&copy;All rights reserved</p>
+<p>contact: musicworld@outlook.com</p>
+<br>
+<center>$Ajay Yadav$</center>
+</div>
+
+
+
